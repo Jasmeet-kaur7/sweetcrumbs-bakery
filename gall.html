@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<title> Sweet Crumbs 🍰  </title>
+<style>
+/* Basic Reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* Combined body styles into one clean rule */
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    background-color: #FFF9F0; 
+    color: #333; 
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 180px; /* Space so content never overlaps the footer */
+}
+
+/* HEADER BAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* logo */
+.logo { font-size: 24px; font-weight: bold; color: #d2691e; }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  text-align: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #d2691e;
+}
+
+/* Text alignment headings */
+.gallery-title {
+    text-align: center;
+    color: #8b5a2b;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.intro-text {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Container to arrange images in a clean row across the screen */
+.gallery-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;  
+    gap: 30px;                
+    padding: 40px 20px;
+    width: 130%;	
+    max-width: 1300px;
+    margin: 0 auto;    
+} 
+
+/* Individual item blocks given a balanced uniform width */
+.gallery-card {
+    background-color: #ffffff; 
+    border: 1px solid #e6ccb2;
+    padding: 15px;
+    flex: 1;          
+    max-width: 450px;     
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+    text-align: center;
+}
+
+/* Fixed sizing window for image elements */
+.gallery-img {
+    width: 100%;           
+    height: 280px;         
+    object-fit: cover;     
+    border-radius: 4px;
+    margin-bottom: 10px; 
+    display: block;
+}
+
+/* Caption formatting under photos */
+.gallery-caption {
+    font-weight: bold;
+    color: #8b5a2b;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+/* Footer position rules */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto; 
+    background-color: #5C3D46;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content {   
+    color: #FFF5EA; 
+    font-size: 18px;
+    font-weight: normal; 
+}
+</style>
+
+<body>
+	<header>
+		<div class="logo">Sweet Crumbs 🍰</div>
+  
+			<nav>
+				<ul>
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="menu.html">Menu</a></li>
+				  <li><a href="aboutus.html">About</a></li>
+				  <li><a href="gallery.html">Weekend Special</a></li>
+				  <li><a href="contactus.html">Contact</a></li>
+				</ul>
+			</nav>
+	</header>	
+			<h1 class="gallery-title">Our Pastry Gallery</h1>
+			<p class="intro-text">Take a look at some of our freshly baked creations!</p>
+
+	<div class="gallery-container">
+    
+    <!-- Photo 1 -->
+			<div class="gallery-card">
+				<img src="image/Chocolate Celebration Cake.png" alt="Chocolate Celebration Cake" class="gallery-img">
+				<p class="gallery-caption">Custom Birthday Cakes</p>
+				
+			</div>
+
+    <!-- Photo 2 -->
+			<div class="gallery-card">
+				<img src="image/fresh butter croissants.png" alt="Fresh Butter Croissants" class="gallery-img">
+				<p class="gallery-caption">Daily Artisanal Pastries</p>
+			</div>
+    <!-- Photo 3 -->
+			<div class="gallery-card">
+				<img src="image/Pain au Chocolat.png" alt="Fresh Butter Croissants" class="gallery-img">
+				<p class="gallery-caption">French Chocolate Pastry</p>
+			</div>
+
+			
+    <!-- Photo 4 -->
+			<div class="gallery-card">
+				<img src="image/Strawberry Fruit Tart.png" alt=" Strawberry Fruit Tart" class="gallery-img">
+				<p class="gallery-caption">Fresh Strawberry Fruit Tart</p>
+			</div>
+
+    <!-- Photo 5 -->
+			<div class="gallery-card">
+				<img src="image/Artisanal Avocado Toast.png" alt="Avocado Toast" class="gallery-img">
+				<p class="gallery-caption">Artisanal Avocado Toast</p>
+			</div>
+	</div>
+	<div class="gallery-container">
+    
+    <!-- Photo 6 -->
+			<div class="gallery-card">
+				<img src="image/Classic Blueberry Scone.png" alt="Classic Blueberry Scone" class="gallery-img">
+				<p class="gallery-caption">Classic Blueberry Scone</p>
+				
+			</div>
+
+    <!-- Photo 7 -->
+			<div class="gallery-card">
+				<img src="image/Lemon Meringue Tartlet.png" alt="Lemon Meringue Tartlet" class="gallery-img">
+				<p class="gallery-caption">Lemon Meringue Tartlet</p>
+			</div>
+    <!-- Photo 8 -->
+			<div class="gallery-card">
+				<img src="image/Pistachio Raspberry Macarons.png" alt="Pistachio Raspberry Macarons" class="gallery-img">
+				<p class="gallery-caption">Pistachio-Berry Macarons</p>
+			</div>
+
+			
+    <!-- Photo 9 -->
+			<div class="gallery-card">
+				<img src="image/Cinnamon Pecan Sticky Bun.png" alt=" Cinnamon Pecan Sticky Bun" class="gallery-img">
+				<p class="gallery-caption">Cinnamon Pecan Sticky Bun</p>
+			</div>
+
+    <!-- Photo 10 -->
+			<div class="gallery-card">
+				<img src="image/Gluten-Free Almond Flour Blondie.png" alt="Gluten-Free Almond Flour Blondie" class="gallery-img">
+				<p class="gallery-caption"> Almond Blondie</p>
+			</div>
+	</div>
+	
+	
+	
+    <div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
+        <a href="index.html" style="text-decoration: none; color: #8B4513; font-weight: bold; font-size: 16px; letter-spacing: 1px;">
+            &larr; BACK &rarr;
+        </a>
+    </div>
+</div>
+<br/>
+	<footer class="footer p ">
+	<div class="social-icons img ">
+			<div style="margin-bottom: 15px;">
+			<span style="display: block; margin-bottom: 8px; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;">Connect with Us</span>
+			<div style="display: inline-block;">
+				<img src="images/capture.png" alt="Social Media" style="height: 28px; display: block; margin: 0 auto;" />
+			</div>
+		</div>
+		<div style="margin-bottom: 15px; font-size: 14px; letter-spacing: 0.5px;">
+			<span>TOLL FREE: </span>
+			<a href="tel:18907835483" style="color: #F3E5AB; text-decoration: none; font-weight: bold;">1890-783-5483</a>
+			<span style="margin: 0 12px; color: rgba(255,255,255,0.4);">|</span>
+			<span>WhatsApp: </span>
+			<a href="https://wa.me" style="color: #F3E5AB; text-decoration: none; font-weight: bold;">+91 98765 43210</a>
+		</div>
+	</div>
+
+    <p style="margin: 0; font-size: 12px; color: rgba(255, 255, 255, 0.7); border-top: 1px solid rgba(255,255,255,0.1); padding-top: 12px; display: block;">
+        &#169; 2026 Sweet Crumbs Bakery | Made with &#10084;&#65039;
+    </p>
+
+</footer>
+</body>
+</html>

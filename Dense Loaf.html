@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+<style>
+/* styles for bakery website */
+/* Basic Reset */
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #FDFBE7; 
+    font-family: sans-serif; 
+  }
+
+  /* HEADER BAR - Now completely edge-to-edge */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-sizing: border-box;
+  }
+
+  .logo { 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #d2691e; 
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+
+  nav a:hover {
+    color: #d2691e;
+  } 
+
+  /* NEW PADDING WRAPPER FOR USER CONTENT */
+  .page-content {
+    padding: 20px;
+  }
+ 
+/* CONTENT CONTAINER */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.product-title {
+    font-family: serif; 
+    color: #4A2C2A; 
+    font-size: 38px; 
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+    margin: 15px 0 25px 0;
+    max-width: 650px;
+}
+
+
+/* REVIEW BOX */
+.review-section {
+    float: right;
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.review-section h3 {
+    font-size: 14px;
+    color: #8B4513;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+} 
+  
+
+/* Footer */
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 100px; 
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto; 
+	background-color:#5C3D46;
+	text-align: center;
+}
+.content {   
+	color: #FFF5EA; 
+    font-size: 18px;
+    font-weight: normal; 
+}
+</style>
+    <title>Sweet Crumbs 🍰</title>
+
+</head>
+<body>
+	<header>
+	<div class="logo">Sweet Crumbs 🍰</div>
+ 
+	<nav>
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="menu.html">Menu</a></li>
+		  <li><a href="aboutus.html">About</a></li>
+		  <li><a href="gallery.html">Weekend Special
+</a></li>
+		  <li><a href="contactus.html">Contact</a></li>
+		</ul>
+	</nav>
+	</header>
+
+<div class="container">
+    <div class="review-section">
+        <h3>CUSTOMER REVIEWS (5.0 stars)</h3>
+		 <p><b> &#11088;&#11088;&#11088;&#11088;&#11088;"Fudgy & Deeply Satisfying"</b></p>
+        <p style="font-size: 14px; color: #333; margin: 8px 0 12px 0;">This loaf hits the absolute sweet spot between a traditional sponge cake and a rich fudge brownie. It is dense, unbelievably moist, and purely chocolatey!</p>
+        <small><i>— Reviewed by Simran K.</i></small>
+    </div>
+	
+    <h1 class="product-title">DENSE LOAF</h1>
+    <img src="image/Dense Loaf.png" width="260" alt="" style="margin-top: 10px;">
+
+    <p class="product-description"><i>Our Signature Dense Chocolate Loaf is built exclusively for the dedicated chocolate purist. Characterized by its extraordinarily tight, heavy crumb and rich homestyle texture, this velvety bake relies on premium dark melted cocoa to deliver an incredibly moist mouthfeel. Perfectly unadorned, it lets the deep, pure profiles of estate-grown chocolate shine beautifully in every single slice.</i></p>
+
+    <hr> 
+
+    <h3 class="section-heading">INGREDIENTS</h3>
+    <ul>
+        <li><b>Chocolate Base:</b> 1 cup premium unsweetened Dutch-process cocoa powder</li>
+        <li><b>Dry Mix:</b> 1 ¾ cups unbleached all-purpose flour, 1 ½ cups fine granulated sugar</li>
+        <li><b>Moisture & Binding:</b> 3 large farm eggs, ½ cup vegetable oil, and ½ cup whole sour cream</li>
+        <li><b>Leavening & Salt:</b> 1 tsp baking soda, 1 tsp baking powder, and ½ tsp fine sea salt</li>
+        <li><b>Flavor Enhancers:</b> 1 tsp pure vanilla extract, ½ cup hot brewed black coffee (to bloom the cocoa)</li>
+    </ul>
+
+    <hr>
+
+    <h3 class="section-heading">DIRECTIONS</h3>
+    <ol>
+        <li><b>Prep the Station:</b> Preheat your oven to 350°F (175°C). Lightly grease a standard 9x5-inch loaf pan and line it cleanly with parchment paper, leaving a slight overhang along the wider edges.</li>
+        <li><b>Bloom the Cocoa:</b> In a small bowl, whisk together the Dutch-process cocoa powder and hot brewed black coffee until smooth. This intensifies the rich chocolate flavor profile. Set aside to cool slightly.</li>
+        <li><b>Combine Dry Elements:</b> Sift the all-purpose flour, granulated sugar, baking soda, baking powder, and sea salt together into a large mixing bowl. Whisk gently to distribute everything evenly.</li>
+        <li><b>Whisk Wet Ingredients:</b> In a separate bowl, vigorously whisk together the eggs, vegetable oil, sour cream, and vanilla extract. Slowly pour in the cooled, melted coffee-cocoa mixture until fully integrated.</li>
+        <li><b>Blend & Bake:</b> Pour the liquid mixture over the dry flour ingredients. Fold gently with a spatula just until the batter comes together smoothly without overmixing. Transfer to your loaf pan and bake for 48 to 53 minutes until a skewer inserted into the center comes away clean. Cool fully on a wire rack before slicing.</li>
+    </ol>
+
+    <div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
+        <a href="combos.html" style="text-decoration: none; color: #8B4513; font-weight: bold; font-size: 16px; letter-spacing: 1px;">
+            &larr; BACK &rarr;
+        </a>
+    </div>
+</div>
+
+<footer class="footer p ">
+<div class="social-icons img ">
+		<div style="margin-bottom: 15px;">
+        <span style="display: block; margin-bottom: 8px; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;">Connect with Us</span>
+        <div style="display: inline-block;">
+            <img src="images/capture.png" alt="Social Media" style="height: 28px; display: block; margin: 0 auto;" />
+        </div>
+    </div>
+
+    <div style="margin-bottom: 15px; font-size: 14px; letter-spacing: 0.5px;">
+        <span>TOLL FREE: </span>
+        <a href="tel:18907835483" style="color: #F3E5AB; text-decoration: none; font-weight: bold;">1890-783-5483</a>
+        <span style="margin: 0 12px; color: rgba(255,255,255,0.4);">|</span>
+        <span>WhatsApp: </span>
+        <a href="https://wa.me" style="color: #F3E5AB; text-decoration: none; font-weight: bold;">+91 98765 43210</a>
+    </div>
+</div>
+
+    <p style="margin: 0; font-size: 12px; color: rgba(255, 255, 255, 0.7); border-top: 1px solid rgba(255,255,255,0.1); padding-top: 12px; display: block;">
+        &#169; 2026 Sweet Crumbs Bakery | Made with &#10084;&#65039;
+    </p>
+
+</footer>
+
+</body>
+</html>

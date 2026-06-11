@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+<head>
+<title> Sweet Crumbs 🍰 </title>
+<style>
+/* styles for bakery website:-  /*
+ 
+ /* Basic Reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    background-color: #FFFBF5; 
+    color: #333; 
+}
+
+
+/* HEADER BAR - Fixed the overlap */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+/*logo*/
+.logo { font-size: 24px; font-weight: bold; color: #d2691e; }
+nav ul {
+  list-style: none;
+  display:flex;
+  gap: 20px;
+  text-align:right
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #d2691e;
+}
+.header-nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-style: italic;
+    font-size: 16px;}
+  .weekend-section {
+    background-color: #FEF8E8; /* Your warm white background */
+    font-family: 'Inter', sans-serif;
+    padding: 80px 6%;
+    text-align: center;
+  }
+
+  /* Header area text */
+  .weekend-tag {
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8C6239;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .weekend-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
+    color: #2C1E11;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 400;
+  }
+  .weekend-subtitle {
+    font-size: 16px;
+    color: #6B5E53;
+    margin-bottom: 50px;
+    font-style: italic;
+  }
+
+  /* Two-column menu grid */
+  .menu-grid {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .menu-card {
+    background-color: #FFFBF5; 
+    border-radius: 8px;
+    text-align: left;
+  }
+
+  /* Card Image Settings */
+  .card-img {
+    width: 100%;
+    height: 300px;
+  }
+
+  /* Content inside card */
+  .card-body {
+    padding: 30px;
+  }
+  .badge {
+    display: inline-block;
+    background-color: rgba(140, 98, 57, 0.1);
+    color: #8C6239;
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .item-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px;
+    color: #2C1E11;
+    margin: 0 0 10px 0;
+  }
+  .item-desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #6B5E53;
+    margin-bottom: 20px;
+  }
+  .item-price {
+    font-size: 18px;
+    color: #2C1E11;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+  }	
+  /* Footer */
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 100px; 
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:auto; 
+	background-color:#5C3D46;
+	text-align: center;
+}
+.content {   
+	color:black; 
+    font-size: 18px;
+    font-weight: normal; 
+}
+</style>
+<body>
+	<header>
+	<div class="logo">Sweet Crumbs 🍰</div>
+ 
+	<nav>
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="menu.html">Menu</a></li>
+      <li><a href="aboutus.html">About</a></li>
+      <li><a href="gallery.html">Weekend Special</a></li>
+      <li><a href="contactus.html">Contact</a></li>
+		</ul>
+	</nav>
+	</header>
+	
+	<section class="weekend-section">
+		<div class="weekend-tag">Saturdays & Sundays Only</div>
+			<h2 class="weekend-title">The Weekend Small-Batch</h2>
+			<p class="weekend-subtitle">Freshly baked from scratch each morning. Available in limited quantities until sold out.</p>
+			
+		<div class="menu-grid">
+		
+			 <!-- Item 1: Cinnamon Rolls -->
+    <div class="menu-card">
+     <a href ="Brioche Cinnamon Rolls.html"> <img class="card-img" src="image/BRIOCHE CINNAMON KNOTS.png" alt="Cinnamon Rolls"></a>
+      <div class="card-body">
+        <span class="badge">Only 40 Breads Daily</span>
+        <h3 class="item-title">BRIOCHE CINNAMON KNOTS</h3>
+        <p class="item-desc">Our signature fluffy, slow-proofed brioche dough swirled with rich brown sugar and dark cinnamon. Served completely warm out of the oven with a rich, melted cream cheese glaze glaze.</p>
+        <span class="item-price"> &#8377;285</span>
+      </div>
+    </div>
+
+    <!-- Item 2: Seasonal Fruit Tart -->
+    <div class="menu-card">
+      <a href ="Rustic Fruit Galette.html"><img class="card-img" src="image/ARTISANAL SUMMER BERRY GALETTE.png" alt="Fruit Galette"></a>
+      <div class="card-body">
+        <span class="badge">Fresh Seasonal Pick</span>
+        <h3 class="item-title">ARTISANAL SUMMER BERRY GALETTE</h3>
+        <p class="item-desc">Hand-folded flaky artisan pastry crusts highlighting the best of the local morning market fruits. Lightly sweetened with organic cane sugar and finished with a dusting of coarse sugar.</p>
+        <span class="item-price">&#8377;693</span>
+      </div>
+    </div>
+	
+	<!-- Item 3:Vanilla Cruffin  -->
+	<div class="menu-card">
+		  <a href ="Vanilla Bean Cruffin.html"><img class="card-img" src="image/MORNING CRUFFIN & LATTE DUET.png" alt="Vanilla Cruffin"></a>
+		  <div class="card-body">
+			<span class="badge">Artisan Pastry</span>
+			<h3 class="item-title">MORNING CRUFFIN & LATTE DUET</h3>
+			<p class="item-desc">A flaky, croissant-style muffin layered with premium real butter, rolled in fine organic sugar, and piped full with our rich house-made Madagascar vanilla bean pastry cream.</p>
+			<span class="item-price">&#8377;240</span>
+		  </div>
+		</div>
+		
+		<!-- Item 4: Rosemary Focaccia -->
+			<div class="menu-card">
+ <a href ="Heirloom Tomato Focac.html"> <img class="card-img" src="image/HEIRLOOM TOMATO FOCACCIA.png" alt="Rosemary Focaccia"></a>
+  <div class="card-body">
+    <span class="badge">Slow Fermented</span>
+    <h3 class="item-title">HEIRLOOM TOMATO FOCACCIA</h3>
+    <p class="item-desc">Our 24-hour slow-fermented olive oil dough, dimpled deeply and topped with charred sweet heirloom cherry tomatoes, fresh organic rosemary needles, and a light sprinkle of flaky sea salt.</p>
+    <span class="item-price">&#8377;250 </span>
+		  </div>
+		</div>
+		</div>
+		  <br/><br/>
+		  <div class="menu-grid">
+		  
+  <!-- Item 5: Fudge Brownies -->
+		<div class="menu-card">
+		  <a href ="Salted Espresso Fudge Brownie.html"> <img class="card-img" src="image/FUDGE BROWNIE À LA MODE.png" alt="Fudge Brownies"></a>
+		  <div class="card-body">
+			<span class="badge">Pure Real Chocolate</span>
+			<h3 class="item-title">FUDGE BROWNIE À LA MODE</h3>
+			<p class="item-desc">An intensely rich, fudgy square made using premium real dark cocoa and a splash of freshly pulled espresso to deepen the flavor. Baked with zero pre-made mixes and cut thick.</p>
+			<span class="item-price">&#8377;260 </span>
+		  </div>
+		</div>
+		
+		<!-- Item 6: Fruit Danish -->
+		<div class="menu-card">
+		  <a href ="Glazed Orchard Fruit Danish.html"> <img class="card-img" src="image/danish.jpg" alt="Fruit Danish"></a>
+		  <div class="card-body">
+			<span class="badge">Seasonal Lamination</span>
+			<h3 class="item-title">ARTISANAL FRESH FRUIT DANISH</h3>
+			<p class="item-desc">A beautifully square, flaky laminated nest with a core of silky cream cheese custard, topped with freshly cut seasonal morning fruits and brushed lightly with an organic cane sugar glaze.</p>
+			<span class="item-price">&#8377;160</span>
+		  </div>
+		</div>
+		
+		<!-- Item 7:Pistachio Supreme Roll  -->
+		<div class="menu-card">
+		  <a href ="Pistachio Supreme Laminated Roll.html"> <img class="card-img" src="image/The Trendy Textural Wonder.jpg" alt="Pistachio Supreme Roll"></a>
+		  <div class="card-body">
+			<span class="badge">Artisan Trend</span>
+			<h3 class="item-title">PISTACHIO SUPREME LAMINATED ROLL</h3>
+			<p class="item-desc">A tightly swirled, ultra-crispy circular laminated pastry cylinder, injected with a decadent roasted Sicilian pistachio cream and dipped in a rich white chocolate ganache crush.</p>
+			<span class="item-price">&#8377;210</span>
+		  </div>
+		</div>
+		
+		<!-- Item 8: Sweet Crumbs Custom Monogram Macarons -->
+		<div class="menu-card">
+		  <a href ="Edible Art.html"><img class="card-img" src="image/macroon.jpeg" alt="Sweet Crumbs Custom Monogram Macarons"></a>
+		  <div class="card-body">
+			<span class="badge">Our Signature Collection</span>
+			<h3 class="item-title">SIGNATURE BRANDED MACARONS</h3>
+			<p class="item-desc">At Sweet Crumbs, your milestones are uniquely ours. From customized monogram macarons featuring our signature initials to bespoke corporate dessert gift boxes, we craft edible branding that tastes as incredible as it looks.</p>
+			<span class="item-price">&#8377;110 per single macaron</span>
+		  </div>
+		</div>
+</div>
+</section>
+
+
+<footer class="footer p ">
+<div class="social-icons img ">
+		<div style="margin-bottom: 15px;">
+        <span style="display: block; margin-bottom: 8px; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;">Connect with Us</span>
+        <div style="display: inline-block;">
+            <img src="images/capture.png" alt="Social Media" style="height: 28px; display: block; margin: 0 auto;" />
+        </div>
+    </div>
+
+    <div style="margin-bottom: 15px; font-size: 14px; letter-spacing: 0.5px;">
+        <span>TOLL FREE: </span>
+        <a href="tel:18907835483" style="color: #F3E5AB; text-decoration: none; font-weight: bold;">1890-783-5483</a>
+        <span style="margin: 0 12px; color: rgba(255,255,255,0.4);">|</span>
+        <span>WhatsApp: </span>
+        <a href="https://wa.me" style="color: #F3E5AB; text-decoration: none; font-weight: bold;">+91 98765 43210</a>
+    </div>
+</div>
+
+    <p style="margin: 0; font-size: 12px; color: rgba(255, 255, 255, 0.7); border-top: 1px solid rgba(255,255,255,0.1); padding-top: 12px; display: block;">
+        &#169; 2026 Sweet Crumbs Bakery | Made with &#10084;&#65039;
+    </p>
+
+</footer>
+</body>
+</html>

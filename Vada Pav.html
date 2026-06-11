@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<head>
+<style>
+/* styles for bakery website */
+  /* Basic Reset */
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #FDFBE7; 
+    font-family: sans-serif; 
+    width: 100%;
+  }
+
+  /* Force universal box-sizing across the layout */
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+  /* HEADER BAR - Edge-to-edge */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .logo { 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #d2691e; 
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+
+  nav a:hover {
+    color: #d2691e;
+  } /* CONTENT CONTAINER */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+  /* Clear floating elements cleanly inside the container box */
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .product-title {
+    font-family: sans-serif; 
+    color: #4A2C2A; 
+    font-size: 32px; 
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+
+  .product-description {
+    font-size: 15px;
+    color: #000;
+    line-height: 1.6;
+    margin: 25px 0;
+    clear: both;
+  }
+
+  /* REVIEW BOX */
+  .review-section {
+    float: right;
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .review-section h3 {
+    font-size: 14px;
+    color: #8B4513;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+
+  /* LISTS */
+  h3.section-heading {
+    color: #000;
+    margin: 20px 0 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  
+  ul {
+    list-style-type: square;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #000;
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  
+  ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #000;
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 2px solid #4A2C2A;
+    margin: 25px 0;
+  }
+
+  /* FOOTER */
+  .footer { 
+    background-color: #5C3D46; 
+    color: #ffffff; 
+    padding: 25px 10px; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    width: 100vw;  
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: 40px;         
+    clear: both;
+  }
+
+  .footer-heading {
+    display: block; 
+    margin-bottom: 8px; 
+    font-size: 15px; 
+    font-weight: bold; 
+    letter-spacing: 0.5px;
+  }
+
+  .social-icons-container {
+    margin-bottom: 15px;
+  }
+
+  .social-icons-container img {
+    height: 28px; 
+    display: block; 
+    margin: 0 auto;
+  }
+
+  .contact-info {
+    margin-bottom: 15px; 
+    font-size: 14px; 
+    letter-spacing: 0.5px;
+  }
+
+  .contact-link {
+    color: #F3E5AB; 
+    text-decoration: none; 
+    font-weight: bold;
+  }
+
+  .contact-divider {
+    margin: 0 12px; 
+    color: rgba(255,255,255,0.4);
+  }
+
+  .copyright {
+    margin: 0; 
+    font-size: 12px; 
+    color: rgba(255, 255, 255, 0.7); 
+    border-top: 1px solid rgba(255,255,255,0.1); 
+    padding-top: 12px; 
+    display: block;
+  }
+</style>
+
+</style>
+    <title>Sweet Crumbs 🍰</title>
+
+</head>
+<body>
+	<header>
+	<div class="logo">Sweet Crumbs 🍰</div>
+ 
+	<nav>
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="menu.html">Menu</a></li>
+		  <li><a href="aboutus.html">About</a></li>
+		  <li><a href="gallery.html">Weekend Special
+</a></li>
+		  <li><a href="contactus.html">Contact</a></li>
+		</ul>
+	</nav>
+	</header>
+	<div class="container">
+    <div class="review-section">
+		<h3 >CUSTOMER REVIEWS (5.0 stars)</h3>
+		<p><b> &#11088;&#11088;&#11088;&#11088;&#11088;"Delicious"</b></p>
+		<p> Authentic street flavors right at home! The dry garlic chutney recipe is absolutely spot on and gives it that signature fiery kick.</p>
+		<small><i>— Reviewed by Sachin T.</i></small>
+    </div>
+	
+    <h1 style="color: #4A2C2A;"> VADA PAV </h1>
+
+    <img src="image/Vada Pav.jpg " width="300" alt="Vada Pav.jpg ">
+
+    <p class="product-description"><i> The iconic <strong>Vada Pav</strong> is the ultimate street food staple of Mumbai. It features a spiced, deep-fried mashed potato fritter (batata vada) nestled inside a soft, pillowy bread bun (pav). The explosive flavor comes from the layered spreads: a sharp green mint-coriander chutney, sweet tamarind chutney, and a generous coating of the mandatory fiery dry garlic-coconut chutney, accompanied by blistered green chillies.</i></p>
+
+    <hr> 
+
+    <h3 class="section-heading">INGREDIENTS</h3>
+	<ul>
+	        <li><strong>Buns:</strong> 4 fresh ladi pav (soft dinner rolls)</li>
+        <li><strong>Potato Filling:</strong> 3 large potatoes (boiled and mashed), ½ tsp mustard seeds, pinch of asafoetida (hing), 10 curry leaves, 1 tsp ginger-garlic-green chilli paste, ¼ tsp turmeric powder, and salt</li>
+        <li><strong>Gram Flour Batter:</strong> 1 cup besan (gram flour), 2 tbsp rice flour (for crunch), ¼ tsp turmeric powder, a pinch of baking soda, and water</li>
+        <li><strong>Dry Garlic Chutney:</strong> ½ cup dry grated coconut, 10 cloves of garlic, 2 tbsp Kashmiri red chilli powder, 1 tbsp roasted peanuts, and salt</li>
+        <li><strong>Garnish:</strong> 4 green chillies fried with a slit, and extra butter for the pav</li>
+        <li><strong>Oil:</strong> Deep frying oil</li>
+    </ul>
+
+    <hr>
+
+    <h3 class="section-heading">DIRECTIONS</h3>
+    <ol>
+       <li><strong>Make the Potato Mix:</strong> Heat 1 tsp oil in a pan. Splutter mustard seeds, then add hing, curry leaves, and ginger-garlic-chilli paste. Stir for a minute, add turmeric and salt, then pour over the mashed potatoes. Mix well and form into 4 round balls.</li>
+        <li><strong>Prepare the Batter:</strong> Whisk besan, rice flour, turmeric, baking soda, and salt in a bowl. Add water slowly to make a thick, smooth coating batter.</li>
+        <li><strong>Fry the Vadas:</strong> Heat frying oil in a deep pan. Dip each potato ball into the besan batter to coat it fully, then gently drop into hot oil. Fry on medium heat until golden brown and crisp. Drain on paper towels.</li>
+        <li><strong>Make Dry Chutney:</strong> Dry roast garlic and coconut separately until lightly browned. Blend them roughly with red chilli powder, peanuts, and salt into a coarse, dry red powder.</li>
+        <li><strong>Assemble:</strong> Slice a pav halfway open. Spread green chutney on one side and sweet chutney on the other. Coat heavily with the dry garlic chutney, place a hot fried vada inside, flatten slightly, and serve alongside a fried green chilli.</li>
+    </ol>
+	
+	<div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <ul style="list-style-type: none; padding: 0;">
+        <li>
+            <a href="Sandwiches & Savouries.html" style="text-decoration: none; color: #8B4513; font-weight: bold; font-size: 18px;">
+                &larr; BACK &rarr;
+            </a>
+        </li>
+    </ul>
+</div>
+<footer class="footer">
+  <div class="social-icons-container">
+    <span class="footer-heading">Connect with Us</span>
+    <div style="display: inline-block;">
+      <img src="images/capture.png" alt="Social Media" />
+    </div>
+    <div style="margin-bottom: 15px; font-size: 14px; letter-spacing: 0.5px;">
+        <span>TOLL FREE: </span>
+        <a href="tel:18907835483" style="color: #F3E5AB; text-decoration: none; font-weight: bold;">1890-783-5483</a>
+        <span style="margin: 0 12px; color: rgba(255,255,255,0.4);">|</span>
+        <span>WhatsApp: </span>
+        <a href="https://wa.me" style="color: #F3E5AB; text-decoration: none; font-weight: bold;">+91 98765 43210</a>
+    </div>
+</div>
+
+    <p style="margin: 0; font-size: 12px; color: rgba(255, 255, 255, 0.7); border-top: 1px solid rgba(255,255,255,0.1); padding-top: 12px; display: block;">
+        &#169; 2026 Sweet Crumbs Bakery | Made with &#10084;&#65039;
+    </p>
+</footer>
+</body>
+</html>

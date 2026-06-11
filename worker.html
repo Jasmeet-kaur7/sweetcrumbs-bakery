@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<title> Sweet Crumbs &#x1F370; </title>
+<style>
+/* Basic Reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* Combined body styles into one clean rule */
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    background-color: #FFF9F0; 
+    color: #333; 
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 180px; /* Space so content never overlaps the footer */
+	}
+
+	/* HEADER BAR */
+	header {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  padding: 20px 60px;
+	  background: #fff;
+	  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+	  position: sticky;
+	  top: 0;
+	  z-index: 100;
+	}
+
+	/* logo */
+	.logo { font-size: 24px; font-weight: bold; color: #d2691e; }
+
+	nav ul {
+	  list-style: none;
+	  display: flex;
+	  gap: 20px;
+	  text-align: right;
+	}
+
+	nav a {
+	  text-decoration: none;
+	  color: #333;
+	  font-weight: 500;
+	}
+
+	nav a:hover {
+	  color: #d2691e;
+	}
+    /* Section Headings */
+    .bakers-title {
+        text-align: center;
+        color: #8b5a2b;    
+        margin-top: 60px;   
+        margin-bottom: 10px;
+        font-size: 32px;
+        font-family: Arial, sans-serif;
+    }
+
+    .bakers-subtitle {
+        text-align: center;
+        font-style: italic;
+        color: #666666;
+        margin-bottom: 40px;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Outer Wrapper for all the team cards */
+    .bakers-box-wrapper {
+        width: 90%;
+        max-width: 1100px;
+        margin: 0 auto;     
+        text-align: center; 
+    }
+
+
+    /* Changes border color on hover */
+    .baker-profile-card {
+        border: 1px solid #d2691e;
+    }
+
+    .baker-name {
+        font-weight: bold;
+        color: #8b5a2b;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .baker-role {
+        color: #777777;
+        font-size: 14px;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
+
+    .baker-bio {
+        color: #555555;
+        font-size: 13px;
+        line-height: 1.4;
+    }
+	/* Footer position rules */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto; 
+    background-color: #5C3D46;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content {   
+    color: #FFF5EA; 
+    font-size: 18px;
+    font-weight: normal; 
+}
+</style>
+<body>
+	<header>
+		<div class="logo">Sweet Crumbs &#x1F370;</div>
+  
+			<nav>
+				<ul>
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="menu.html">Menu</a></li>
+				  <li><a href="aboutus.html">About</a></li>
+				  <li><a href="gallery.html">Weekend Special</a></li>
+				  <li><a href="contactus.html">Contact</a></li>
+				</ul>
+			</nav>
+	</header>	
+<h2 class="bakers-title">Meet Our Master Bakers</h2>
+<p class="bakers-subtitle">The passionate team baking your happiness fresh every day.</p>
+
+<div class="bakers-box-wrapper">
+
+    <!-- Baker 1 -->
+    <div class="baker-profile-card">
+	<BR/>
+        <img src="images/baker kneading dough.png" alt="Head Chef Sarah" class="baker-circle-image">
+        <p class="baker-name">Chef Sarah</p>
+        <p class="baker-role">Head Pastry Artisan</p>
+        <p class="baker-bio">With over 10 years of experience molding dough, Sarah leads our kitchen and designs our secret recipe seasonal bakes.</p>
+    </div>
+<BR/>
+    <!-- Baker 2 -->
+    <div class="baker-profile-card">
+	<BR/>
+        <img src="imageS/cake-artist.png" alt="Cake Designer Rohan" class="baker-circle-image">
+        <p class="baker-name">Rohan</p>
+        <p class="baker-role">Custom Cake Designer</p>
+        <p class="baker-bio">Rohan turns sugar into sculpture! He handles all of our custom multi-tiered birthday and anniversary cake decorations.</p>
+    </div>
+<BR/>
+    <!-- Baker 3 -->
+    <div class="baker-profile-card">
+	<BR/>
+        <img src="images/baker-assistant.png" alt="Bread Specialist Aman" class="baker-circle-image">
+        <p class="baker-name">Aman</p>
+        <p class="baker-role">Sourdough Specialist</p>
+        <p class="baker-bio">Aman wakes up at 3:00 AM every single morning to ensure our crusty sourdough loaves are baked warm right before store opening.</p>
+    </div>
+<BR/>
+    <!-- Baker 4 -->
+    <div class="baker-profile-card">
+	<BR/>
+        <img src="images/Chocolate Specialist.png" alt="Chocolate Specialist Aadhya" class="baker-circle-image">
+        <p class="baker-name">Aadhya</p>
+        <p class="baker-role">Chocolate Specialist</p>
+        <p class="baker-bio">Aadhya is our master artist who crafts all our glossy chocolate glazes, rich ganaches, and elegant handmade toppers for your custom cakes.</p>
+    </div>
+<BR/>
+    <!-- Baker 5 -->
+    <div class="baker-profile-card">
+	<BR/>
+        <img src="images/The Head of Coffee.png" alt="The Head of Coffee Mia" class="baker-circle-image">
+        <p class="baker-name">Mia</p>
+        <p class="baker-role">The Head of Coffee</p>
+        <p class="baker-bio">Mia crafts our premium espresso drinks, lattes, and specialty cold brews to ensure you have the absolute perfect cup of coffee to pair with your sweet pastries.</p>
+    </div>
+<BR/>
+    <!-- Baker 6 -->
+    <div class="baker-profile-card">
+	<BR/>
+        <img src="images/The Cookie & Brownie Expert.png" alt="The Cookie & Brownie Expert Manav" class="baker-circle-image">
+        <p class="baker-name">Manav</p>
+        <p class="baker-role">The Cookie & Brownie Expert</p>
+        <p class="baker-bio">Manav bakes our signature cookies and rich fudgy brownies from scratch daily, using premium ingredients to create the ultimate decadent treat for your coffee pairing.</p>
+    </div>
+<BR/>
+</div>
+    <div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
+        <a href="index.html" style="text-decoration: none; color: #8B4513; font-weight: bold; font-size: 16px; letter-spacing: 1px;">
+            &larr; BACK &rarr;
+        </a>
+    </div>
+</div>
+<br/>
+	<footer class="footer p ">
+	<div class="social-icons img ">
+			<div style="margin-bottom: 15px;">
+			<span style="display: block; margin-bottom: 8px; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;">Connect with Us</span>
+			<div style="display: inline-block;">
+				<img src="images/capture.png" alt="Social Media" style="height: 28px; display: block; margin: 0 auto;" />
+			</div>
+		</div>
+		<div style="margin-bottom: 15px; font-size: 14px; letter-spacing: 0.5px;">
+			<span>TOLL FREE: </span>
+			<a href="tel:18907835483" style="color: #F3E5AB; text-decoration: none; font-weight: bold;">1890-783-5483</a>
+			<span style="margin: 0 12px; color: rgba(255,255,255,0.4);">|</span>
+			<span>WhatsApp: </span>
+			<a href="https://wa.me" style="color: #F3E5AB; text-decoration: none; font-weight: bold;">+91 98765 43210</a>
+		</div>
+	</div>
+
+    <p style="margin: 0; font-size: 12px; color: rgba(255, 255, 255, 0.7); border-top: 1px solid rgba(255,255,255,0.1); padding-top: 12px; display: block;">
+        &#169; 2026 Sweet Crumbs Bakery | Made with &#10084;&#65039;
+    </p>
+
+</footer>
+</body>
+</html>

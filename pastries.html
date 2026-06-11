@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+<title> Sweet Crumbs 🍰 </title>
+<style>
+/* styles for bakery website:-  /*
+ 
+ /* Basic Reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    background-color: #FFFBF5; 
+    color: #333; 
+}
+
+
+/* HEADER BAR - Fixed the overlap */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+}
+
+
+/*logo*/
+.logo { font-size: 24px; font-weight: bold; color: #d2691e; }
+nav ul {
+  list-style: none;
+  display:flex;
+  gap: 20px;
+  text-align:right
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #d2691e;
+}
+.header-nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* SECTIONS */
+section {
+  text-align: center;
+  background-color:#FDF5E6;
+  height:200px
+}
+
+/*content*/
+.content h1 {
+    font-family: serif; 
+    color: #8B4513; 
+    font-size: 42px; 
+    margin-bottom: 20px;}
+.content p {
+    font-size: 18px;
+	color:#4A4A4A;
+		font-weight:bold;
+    line-height: 1.6;
+    margin: 0 auto; 
+}
+
+/* GALLERY */
+.gallery {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;  
+    gap: 30px;                
+    padding: 50px 20px;
+    background-color: #fff;
+    width: 100%;
+}
+.menu-item img {
+    width: 100%;           
+    height: 200px;         
+    object-fit: cover;     
+    border-radius: 4px;
+    margin-bottom: 15px;    
+}
+.menu-item h3 {
+    font-family: serif;
+    color: #8B4513;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.menu-item {
+    flex: 1;                
+    max-width: 250px;        
+    text-align: center;
+}
+/* Footer */
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 100px; 
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto; 
+	background-color:#5C3D46;
+	text-align: center;
+}
+.content {   
+	color: #FFF5EA; 
+    font-size: 18px;
+    font-weight: normal; 
+}
+</style>
+<body>
+	<header>
+	<div class="logo">Sweet Crumbs 🍰</div>
+ 
+	<nav>
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="menu.html">Menu</a></li>
+		  <li><a href="about.html">About</a></li>
+		  <li><a href="gallery.html">Weekend Special
+</a></li>
+		  <li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	</header>
+	
+	<section>
+	<div class="content h1">
+		<br/><h1>PASTRIES</h1>
+	<div class="content p">
+		<p>Our signature pastries are meticulously layered for that perfect, buttery shatter and a delicate, melt-in<br/>-the-mouth heart. Refined, exquisite, and unapologetically elegant—they’re not just a dessert; they’re an experience in every golden crumb.</p>
+	</section>
+	<div class="gallery">
+	
+		<div class="menu-item">
+			<a href ="Black Frost pastry.html"><img src="image/Black Frost pastry.jpg" alt="Black Frost pastry"></a>
+			<h3> Black Frost pastry<br/> Price: &#8377;120 </h3>
+		</div>
+		
+		<div class="menu-item">
+			<a href ="Blueberry Cheese Pastry.html"><img src="image/Blueberry Cheese Pastry.png" alt="Blueberry Cheese Pastry"></a>
+			<h3> Blueberry Cheese Pastry<br/> Price: &#8377; 229</h3>
+		</div>
+		
+		<div class="menu-item">
+			<a href ="Lemon Pastry.html"><img src="image/Lemon Pastry.jpg" alt="Lemon Pastry"></a>
+			<h3> Lemon Pastry<br/> Price: &#8377;150</h3>
+		</div>
+		
+		<div class="menu-item">
+			<a href ="Mango Pastry.html"><img src="image/Mango Pastry.png" alt="Mango Pastry"></a>
+			<h3>Mango Pastry <br/> Price: &#8377;130</h3>
+		</div>
+	</div>
+	
+		<div class="gallery">
+	
+		<div class="menu-item">
+			<a href ="Red Velvet Pastry.html"><img src="image/Red Velvet Pastry.png" alt="Red Velvet Pastry"></a>
+			<h3> Red Velvet Pastry<br/> Price: &#8377;150</h3>
+		</div>
+		
+		<div class="menu-item">
+			<a href ="Chocolate Truffle Pastry.html"><img src="image/Chocolate Truffle Pastry.png" alt="Chocolate Truffle Pastry"></a>
+			<h3> Chocolate Truffle Pastry<br/> Price: &#8377;135</h3>
+		</div>
+		
+		<div class="menu-item">
+			<a href ="Vanilla Pastry.html"><img src="image/Vanilla Pastry.png" alt="Vanilla Pastry"></a>
+			<h3> Vanilla Pastry <br/> Price: &#8377;120</h3>
+		</div>
+		
+		<div class="menu-item">
+			<a href ="Strawberry Milk Chocolate Pastry.html"><img src="image/Strawberry Milk Chocolate Pastry.png" alt="Strawberry Milk Chocolate Pastry"></a>
+			<h3>Strawberry Milk Chocolate Pastry [1 Piece] <br/> Price: &#8377;110</h3>
+		</div>
+	</div>
+	
+	<div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <ul style="list-style-type: none; padding: 0;">
+        <li>
+            <a href="menu.html" style="text-decoration: none; color: #8B4513; font-weight: bold; font-size: 18px;">
+                &larr; BACK &rarr;
+            </a>
+        </li>
+    </ul>
+</div><br/>
+<footer class="footer p ">
+<div class="social-icons img ">
+		<div style="margin-bottom: 15px;">
+        <span style="display: block; margin-bottom: 8px; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;">Connect with Us</span>
+        <div style="display: inline-block;">
+            <img src="images/capture.png" alt="Social Media" style="height: 28px; display: block; margin: 0 auto;" />
+        </div>
+    </div>
+
+    <div style="margin-bottom: 15px; font-size: 14px; letter-spacing: 0.5px;">
+        <span>TOLL FREE: </span>
+        <a href="tel:18907835483" style="color: #F3E5AB; text-decoration: none; font-weight: bold;">1890-783-5483</a>
+        <span style="margin: 0 12px; color: rgba(255,255,255,0.4);">|</span>
+        <span>WhatsApp: </span>
+        <a href="https://wa.me" style="color: #F3E5AB; text-decoration: none; font-weight: bold;">+91 98765 43210</a>
+    </div>
+</div>
+
+    <p style="margin: 0; font-size: 12px; color: rgba(255, 255, 255, 0.7); border-top: 1px solid rgba(255,255,255,0.1); padding-top: 12px; display: block;">
+        &#169; 2026 Sweet Crumbs Bakery | Made with &#10084;&#65039;
+    </p>
+
+</footer>
+</body>
+</html>
